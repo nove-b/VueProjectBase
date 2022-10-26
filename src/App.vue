@@ -1,12 +1,8 @@
 <script setup lang="ts">
-import iconUrl from "./assets/vue.svg?url";
-import iconRow from "./assets/vue.svg?raw";
-import IconComponent from "./assets/vue.svg?component";
+import IconComponent from "./assets/vue.svg";
 </script>
 
 <template>
-  <img :src="iconUrl" class="logo vue" alt="Vue logo" />
-  <div v-html="iconRow"></div>
   <IconComponent />
 </template>
 
