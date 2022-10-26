@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IconComponent from "./assets/vue.svg";
+import IconComponent from './assets/vue.svg'
 </script>
 
 <template>
